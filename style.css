@@ -1,0 +1,72 @@
+* {box-sizing: border-box;}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: .94rem;
+    color: #404040;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    background: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+/* ================== */
+    /* Typography */
+/* ================== */
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+/* ================== */
+    /* Layout */
+/* ================== */
+
+.QR-image{
+    width: 100%;
+    border-radius: 15px
+}
+
+.card{
+    max-width: 375px;
+    margin: 0 auto;
+    background: hsl(0, 0%, 100%);
+    padding: 1.5em;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.card-text{
+    width: 95%;
+    opacity: 0.9;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+.card-text p {
+    margin: 0 auto 1.5em;
+    width: 90%;
+}
+
+/* ================== */
+    /* Attribution */
+/* ================== */
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
