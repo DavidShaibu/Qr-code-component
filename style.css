@@ -47,7 +47,7 @@ h1 {
 }
 
 .card-text{
-    width: 95%;
+    width: 100%;
     opacity: 0.9;
     margin: 0 auto;
     /* border: 1px solid black; */
@@ -55,7 +55,7 @@ h1 {
 
 .card-text p {
     margin: 0 auto 1.5em;
-    width: 90%;
+    width: 100%;
 }
 
 /* ================== */
