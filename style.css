@@ -38,7 +38,7 @@ h1 {
 }
 
 .card{
-    max-width: 375px;
+    max-width: 325px;
     margin: 0 auto;
     background: hsl(0, 0%, 100%);
     padding: 1.5em;
